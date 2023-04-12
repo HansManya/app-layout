@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#079435"
+        android:textSize="40sp"
+        android:id="@+id/mtvtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Linear Layouts" />
+
+    <TextView
+        android:id="@+id/mtvcontent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Androidbfdsh dfhjoijrhojg sfyjishjoiewsuyjkf hijihjs9yujk gbuyhshf gijrhkjr9yojksgoyj hjrhijhoewszioj khjtrouprylgj toukodhkosjk m, b "
+        android:textColor="#2063A5"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mbtnreg"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0AA4F1"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#12D8D8"
+            android:text="Login" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imglogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/chevrolet" />
+</LinearLayout>
